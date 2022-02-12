@@ -7,7 +7,16 @@ and **covariance matrices**:
 Plot the data vectors. Measures the Euclidean distance between any two data points and determine maximum (```dmax```) and minimum (```dmin```) Euclidean distances.
 
  
-- Create virtual environment install dependencies by  
+1. Create virtual environment and activate
+- (For Windows, Make sure virtualenv is added to PATH)
+```bash
+virtualenv venv && source venv/Scripts/activate
 ```
-virtualenv venv && pip install -r requirements.txt
+- (For Linux)
+```bash
+virtualenv venv && source venv/bin/activate
+```
+2. Install dependencies and execute
+```bash
+pip install -r requirements.txt && python main.py
 ```
