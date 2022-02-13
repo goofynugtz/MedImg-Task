@@ -28,8 +28,8 @@ COV =  [[[1  ,0  ],
 # Range of viewport
 XO, YO = -3, 8
 
-def euclidean_distance(i,j):
-  return ((j[0] - i[0])**2 + (j[1] - i[1])**2)**(1/2)
+# def euclidean_distance(i,j):
+#   return ((j[0] - i[0])**2 + (j[1] - i[1])**2)**(1/2)
 
 
 # def min_max_distance(dataset):
